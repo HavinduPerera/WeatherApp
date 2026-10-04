@@ -1,0 +1,12 @@
+// Base.xcconfig
+//
+// Shared build settings. Secrets.xcconfig is intentionally NOT in version
+// control; the optional include below lets the project configure and build
+// without it (the API key simply resolves to an empty string).
+//
+// To supply your key, copy Secrets.example.xcconfig to Secrets.xcconfig and
+// fill in OPENWEATHER_API_KEY.
+
+#include? "Secrets.xcconfig"
+
+OPENWEATHER_API_KEY = $(inherited)

@@ -1,0 +1,30 @@
+# Secrets — never commit real API keys
+Config/Secrets.xcconfig
+
+# macOS
+.DS_Store
+
+# Xcode user state & build artifacts
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (unused here, kept for safety)
+Pods/
+Carthage/Build/
+
+# Accio / fastlane
+fastlane/report.xml
+fastlane/screenshots/**/*.png

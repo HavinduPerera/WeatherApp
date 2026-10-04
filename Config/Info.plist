@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Substituted at build time from OPENWEATHER_API_KEY (Config/Secrets.xcconfig).
+	     Xcode merges its auto-generated keys into this file. -->
+	<key>OpenWeatherMapAPIKey</key>
+	<string>$(OPENWEATHER_API_KEY)</string>
+</dict>
+</plist>
